@@ -12,4 +12,11 @@
    - 6. 通过python连接数据库, 构造SQL语句,将爬取的内容存入数据库(数据量有点大,我最终爬了下来的数据共2107275条(未去重))
    ![蘑菇街所有商品数据](https://github.com/kingjxlove/img/blob/master/spiders_img/%E8%98%91%E8%8F%87%E8%A1%97%E6%95%B0%E6%8D%AE.png)
 #### 3.[爬取虾米音乐排行榜前100的歌曲(下载)](https://github.com/kingjxlove/spiders/blob/master/spiders/xiami.py)
+###### - [凯撒密码](https://github.com/kingjxlove/spiders/blob/master/spiders/kaisha.py)
+	 通过URL打开虾米音乐的排行榜, 进入开发者模式, 找到歌曲信息的位置.
+	 网页构成中, 有一个table里面的tr有'data-mp3'属性.
+	 应该能猜到, 歌曲的数据应该就和这个有关系了, 但是这里面的文字杂乱无章, 很明显不是歌曲的直接URL
+	 该地址是加密过的, 通过凯撒密码解密,能得到它真正的URL
+	 获取到歌曲地址的url就能直接解析歌曲了, 然后通过二进制存储该数据, 就能把歌曲下载下来了
+
 	
