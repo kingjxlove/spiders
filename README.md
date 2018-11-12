@@ -10,3 +10,6 @@
    - 4. 分析得出, 商品种类应该是和首页里面的栏目里面的数据是对应的 所以去蘑菇街首页找到存放所有种类的'fcid'的文件(mce.mogucdn.com/jsonp/multiget/3?pids=110119), 这样就可以得到所有的种类了.
    - 5. 循环遍历,构造单个种类页面的URL. 同一种类的商品是通过改变page来实现页面加载的, 所以将页面page与种类fcid一起传入url, 就能得到商品的详细信息.
    - 6. 通过python连接数据库, 构造SQL语句,将爬取的内容存入数据库(数据量有点大,我最终爬了下来的数据共2107275条(未去重))
+   ![蘑菇街所有商品数据](https://github.com/kingjxlove/img/blob/master/spiders_img/%E8%98%91%E8%8F%87%E8%A1%97%E6%95%B0%E6%8D%AE.png)
+#### 3.[爬取虾米音乐排行榜前100的歌曲(下载)](https://github.com/kingjxlove/spiders/blob/master/spiders/xiami.py)
+	
