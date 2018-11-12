@@ -1,7 +1,7 @@
 # spiders
-####1. [爬取boss直聘上的Python岗位](https://github.com/kingjxlove/spiders/blob/master/spiders/zhipin.py)
+#### 1. [爬取boss直聘上的Python岗位](https://github.com/kingjxlove/spiders/blob/master/spiders/zhipin.py)
     构造URL, 获取网页上的数据, 解析URL, 获取需要的信息存入字典
-####2. [爬取蘑菇街网站上所有种类的商品(未去重)](https://github.com/kingjxlove/spiders/blob/master/spiders/mogujie_all.py)
+#### 2. [爬取蘑菇街网站上所有种类的商品(未去重)](https://github.com/kingjxlove/spiders/blob/master/spiders/mogujie_all.py)
     爬取蘑菇街网站上的所有商品比较复杂, 想获取全部的商品, 突破口就是商品的种类.
     1. 首先随便选取一个商品种类,点进去后,可以发现这里面直接就会出现很多商品
     2. 蘑菇街并没有使用url进行分页处理, 更多的数据是放在一个个XHR文件中的list.mogujie.com/search?(获取这个文件, 你可以使用Chrome打开开发者模式,在Network中, 你向下滑动, 页面就会加载新的元素, 带有数据的文件就找到了)
