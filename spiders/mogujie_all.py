@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @File  : mogujie_all.py
 # @Author: KingJX
-# @Date  : 2018/10/24 19:01
+# @Date  : 2018/6/24 19:01
 """"""
 import pymysql
 import requests
