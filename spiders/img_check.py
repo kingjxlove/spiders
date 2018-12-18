@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @File  : img_check.py
 # @Author: KingJX
-# @Date  : 2018/10/29 15:53
+# @Date  : 2018/6/29 15:53
 """"""
 import os
 
