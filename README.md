@@ -30,4 +30,7 @@
 	 如果有相同的图片,则说明验证码图片为正向, 不必旋转; 若比较完成后,没有相同的图片,模拟点击该图片一次.
 	 后面三张验证码道理同上; 若旋转三次后, 验证都未通过, 则有可能是图库中的头像没有获取完全, 此时模拟点击换一组, 重新执行验证
 ![验证完成后的图片](https://github.com/kingjxlove/img/blob/master/spiders_img/1kkk%E9%AA%8C%E8%AF%81%E7%A0%81(%E6%AD%A3).png)
+#### 5. [天天基金网3344法则筛选](https://github.com/kingjxlove/spiders/blob/master/spiders/jijin.py)
+    通过3344法则，筛选优质基金（但是去年年底入的，筛的再好，也改不了我目前还是亏损状态的事实）
+   ![天天基金网](https://github.com/kingjxlove/img/blob/master/%E5%A4%A9%E5%A4%A9%E5%9F%BA%E9%87%91%E7%BD%913344%E7%AD%9B%E9%80%89.png)
 	
